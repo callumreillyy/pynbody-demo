@@ -17,4 +17,4 @@ Once dependencies are installed run `load_test_data.py` to install the pynbody t
 
 ## Usage
 
-In `/demos` run any of the python scripts from the command line and follow the prompts. Open the code in and IDE and make some visualisations, create profiles, try a new halo etc.
+In `/demos` run any of the python scripts from the command line and follow the prompts. Open the code in an IDE and make some visualisations, create profiles, try a new halo etc.
