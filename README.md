@@ -4,7 +4,7 @@ This repo is a demonstartion of the [pynbody quickstart](https://pynbody.readthe
 
 ## Setup
 
-After cloning the repo, create a virtural environment and install dependencies. Remember to deactivate :D.
+After cloning the repo, create a virtural environment and install dependencies, remember to deactivate when you're done.
 
 ```bash
     python3 -m venv pynbody-topsy-venv
