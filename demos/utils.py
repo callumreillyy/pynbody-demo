@@ -3,7 +3,7 @@ import pynbody
 def load_snapshot(snapshot_image):
     """
     load the snapshot, an instance of SimSnap. Handles loading data 
-    with various methods (e.g load). You can then get various data from this snapshot.
+    with various methods (e.g load). You can then get data from this snapshot.
     In this case we get the snapshot halos.
     """
     snapshot = pynbody.load(snapshot_image) # a zoom cosmological simulation.

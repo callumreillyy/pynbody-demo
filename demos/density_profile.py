@@ -18,7 +18,7 @@ def create_density_profile(main_halo):
 
 def plot_profiles(star_profile, dm_profile, gas_profile):
     """
-    Plot the created profiles
+    Plot the created profiles (docs)
     """
     pylab.plot(star_profile['rbins'], star_profile['density'], 'r', label='Stars')
     pylab.plot(dm_profile['rbins'], dm_profile['density'], 'k', label='Dark Matter')

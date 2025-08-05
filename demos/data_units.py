@@ -70,7 +70,7 @@ def main():
         convert_units(snapshot)
         main()
     elif cmd == "3":
-        reset_to_original_units(snapshot) #  Will be reset back on main() call
+        reset_to_original_units(snapshot) #  set to phys units on main() call
         main()
     else:
         print("Invalid option. Please enter a number between 1 and 3.")

@@ -3,7 +3,6 @@ from utils import load_snapshot
 from config import SNAPSHOT_PATH
 
 def get_snapshot_data(s, h, main_halo):
-    
     # log the min_halo's data to console
     print('\nngas = %e, ndark = %e, nstar = %e\n'%(len(main_halo.gas),len(main_halo.dark),len(main_halo.star)))
     # ...also works with the whole snapshot

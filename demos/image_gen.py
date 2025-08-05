@@ -4,7 +4,7 @@ import pylab
 from utils import load_snapshot, format_snapshot
 from config import SNAPSHOT_PATH
 
-def visualize_gas_density(main_halo):
+def visualise_gas_density(main_halo):
     """
     Generate a density interpolation of gas for the main halo (central galaxy).
     """
@@ -12,7 +12,7 @@ def visualize_gas_density(main_halo):
     pylab.show()
 
 
-def visualize_dark_matter_distribution(snapshot):
+def visualise_dark_matter_distribution(snapshot):
     """
     Generate a dark matter distribution visualisation for the entire snapshot.
     """
@@ -22,7 +22,7 @@ def visualize_dark_matter_distribution(snapshot):
     pylab.show()
 
 
-def visualize_sideon_gas(main_halo):
+def visualise_sideon_gas(main_halo):
     """
     Generate a side-on view of the gas distribution for the main halo.
     """
@@ -45,13 +45,13 @@ def main():
     format_snapshot(snapshot, main_halo) # center snapshot and convert to physical units
 
     if cmd == "1":
-        visualize_gas_density(main_halo)
+        visualise_gas_density(main_halo)
         main()
     elif cmd == "2":
-        visualize_dark_matter_distribution(snapshot)
+        visualise_dark_matter_distribution(snapshot)
         main()
     elif cmd == "3":
-        visualize_sideon_gas(main_halo)
+        visualise_sideon_gas(main_halo)
         main()
     else:
         print("Invalid option. Please enter a number between 1 and 3.")
