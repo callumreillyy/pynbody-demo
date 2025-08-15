@@ -1,6 +1,7 @@
 # Core libraries
 pynbody==2.1.1
 topsy==0.7.0
+panda3d==1.10.15
 # Visualization 
 matplotlib>=3.5.0
 numpy>=1.21.0
