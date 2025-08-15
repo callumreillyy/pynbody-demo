@@ -4,7 +4,7 @@ This repo is a demonstartion of the [pynbody quickstart](https://pynbody.readthe
 
 ## Setup
 
-After cloning the repo, create a virtural environment and install dependencies. Remember to deactivate :D.
+After cloning the repo, create a virtural environment and install dependencies, remember to deactivate when you're done.
 
 ```bash
     python3 -m venv pynbody-topsy-venv
@@ -17,4 +17,4 @@ Once dependencies are installed run `load_test_data.py` to install the pynbody t
 
 ## Usage
 
-In `/demos` run any of the python scripts from the command line and follow the prompts. Open the code in and IDE and make some visualisations, create profiles, try a new halo etc.
+In `/demos` run any of the python scripts from the command line and follow the prompts. Open the code in an IDE and make some visualisations, create profiles, try a new halo etc.
