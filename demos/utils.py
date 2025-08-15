@@ -20,4 +20,4 @@ def format_snapshot(snapshot, main_halo):
     If this is not desired, pass 'move_all = False' as variable
     """
     snapshot.physical_units() # load the snapshot as physical units
-    pynbody.analysis.center(main_halo, move_all=True) # center halo, set move_all to false to ONLY center this halo
+    pynbody.analysis.halo.center(main_halo, move_all=True) # center halo, set move_all to false to ONLY center this halo
